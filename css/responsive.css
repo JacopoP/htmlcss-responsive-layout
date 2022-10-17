@@ -1,3 +1,17 @@
+@media screen and (max-width:950px){    
+    #uses .big-card.card .right-col, #uses .big-card.card .left-col{
+        width: 100%;
+        text-align: left;
+    }
+
+    #uses .big-card.card .right-col img{
+        position: relative;
+        top: 40px;
+        left: 20px;
+        text-align: left;
+    }
+}
+
 @media screen and (max-width:768px) {
     header nav{
         display: none;
@@ -5,5 +19,11 @@
 
     header #burger-menu{
         display: block;
+    }
+}
+
+@media screen and (max-width:656px){
+    #uses .flex-container .card{
+        width: 100%;
     }
 }

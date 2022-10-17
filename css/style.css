@@ -31,6 +31,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9999;
     height: 75px;
     color: #fff;
     font-size: 18px;
@@ -68,4 +69,70 @@ header #burger-menu{
 /* main rules */
 main{
     margin-top: 125px;
+}
+
+main .flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Section uses rules */
+#uses .flex-container{
+    gap: 20px;
+}
+
+#uses .card{
+    background-color: #b5ddff;
+    text-align: center;
+    width: calc((100% - 40px) / 3);
+    padding: 30px 25px;
+    border-radius: 15px;
+    color: #657c8f;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#uses .card h3{
+    color: #0e8afd;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.card .icon{
+    color:#0084fd;
+    font-size: 80px;
+    margin-bottom: 30px;
+} 
+
+#uses .card.big-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 40px) / 3 * 2 + 20px);
+}
+
+#uses .card.big-card .left-col{
+    width: 50%;
+    text-align: left;
+}
+
+#uses .card.big-card .right-col{
+    width: 50%;
+    position: relative;
+}
+
+#uses .card.big-card .right-col img{
+    width: 250px;
+    position: absolute;
+    bottom: -30px;
+    left: 45px;
+}
+
+#uses .card.big-card .left-col .button{
+    display: inline-block;
+    padding: 9px 50px;
+    background-color: #0e8afd;
+    color: #fff;
+    font-size: 18px;
+    margin: 30px 0 0;
 }
