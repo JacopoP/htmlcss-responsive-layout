@@ -20,6 +20,10 @@ a{
     margin: 0 auto;
 }
 
+.medium-container{
+    max-width: 875px;;
+}
+
 .button{
     border-radius: 1000px;
 }
@@ -135,4 +139,71 @@ main .flex-container{
     color: #fff;
     font-size: 18px;
     margin: 30px 0 0;
+}
+
+/* planning section rules */
+#planning{
+    background-color: #9792e4;
+    padding-bottom: 60px;
+}
+
+#planning img{
+    max-width: 100%;
+}
+
+#planning .flex-container{
+    align-items: flex-end;
+}
+
+#planning .flex-container > *{
+    width: 45%;
+}
+
+#planning .left-col{
+    color: #fff;
+}
+
+#planning .left-col img{
+    margin: 135px 0;
+}
+
+#planning .left-col h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#planning .left-col p{
+    line-height: 30px;
+}
+
+#planning .right-col{
+    background-color: #fff;
+    padding: 35px 38px;
+    text-align: center;
+    border-radius: 45px;
+}
+
+#planning .right-col img{
+    max-width: 250px;
+}
+
+#planning .right-col h3{
+    margin: 15px 0 20px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#planning .right-col p{
+    line-height: 30px;
+    font-style: italic;
+}
+
+#planning .right-col .button{
+    display: inline-block;
+    background-color: #9792e4;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    margin-top: 35px;
 }

@@ -20,10 +20,32 @@
     header #burger-menu{
         display: block;
     }
+
+    #planning .flex-container > *{
+        width: 100%;
+    }
+
+    #planning .left-col{
+        margin-bottom: 35px;
+    }
+
+    #planning .left-col h2{
+        font-size: 60px;
+    }
+
+    #planning .right-col img{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:656px){
     #uses .flex-container .card{
         width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #planning .left-col h2{
+        font-size: 30px;
     }
 }
