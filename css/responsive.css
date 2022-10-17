@@ -42,10 +42,27 @@
     #uses .flex-container .card{
         width: 100%;
     }
+
+    #testimonials .card{
+        padding: 30px 20px;
+    }
+
+    #testimonials .card .left-col{
+        margin-bottom: 15px;
+    }
+
+    #testimonials .card .left-col, #testimonials .card .right-col{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:480px) {
     #planning .left-col h2{
         font-size: 30px;
+    }
+
+    #testimonials h2{
+        font-size: 35px;
     }
 }

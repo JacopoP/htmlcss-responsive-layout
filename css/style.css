@@ -207,3 +207,48 @@ main .flex-container{
     font-size: 18px;
     margin-top: 35px;
 }
+
+/* testimonial section rules */
+#testimonials{
+    text-align: center;
+    margin: 65px 0;
+    font-size: 18px;
+}
+
+#testimonials h2{
+    color: #9792e4;
+    font-size: 47px;
+}
+
+#testimonials p{
+    padding: 0 5%;
+    line-height: 33px;
+    margin: 35px 0;
+}
+
+#testimonials .card{
+    background-color: #9792e4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 30px 55px 45px 15px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+}
+
+#testimonials .card img{
+    height: 200px;
+    border-radius: 100px;
+}
+
+#testimonials .card figcaption{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#testimonials .card .right-col{
+    width: calc(100% - 260px);
+}
