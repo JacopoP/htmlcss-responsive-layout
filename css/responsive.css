@@ -88,11 +88,19 @@
 
 /* smartphone width */
 @media screen and (max-width:480px) {
-    #planning .left-col h2{
+    #planning .left-col h2, #get-started h3{
         font-size: 30px;
     }
 
     #testimonials h2, #benefits h2, #about-us h2{
         font-size: 35px;
+    }
+
+    #get-started h2{
+        font-size: 60px;
+    }
+
+    #get-started p{
+        padding: 0;
     }
 }
