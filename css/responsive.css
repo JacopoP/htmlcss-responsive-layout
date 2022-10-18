@@ -1,3 +1,4 @@
+/* desktop first */
 @media screen and (max-width:950px){    
     #uses .big-card.card .right-col, #uses .big-card.card .left-col{
         width: 100%;
@@ -16,6 +17,7 @@
     }
 }
 
+/* tablet width */
 @media screen and (max-width:768px) {
     header nav{
         display: none;
@@ -63,18 +65,34 @@
     #benefits .card{
         width: 100%;
     }
+
+    #about-us .left-col{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #about-us .right-col{
+        width: 100%;
+    }
+
+    #about-us .right-col img{
+        width: 180px;
+        height: 180px;
+        border-radius: 125px;
+    }
+
+    #about-us .right-col #quotes{
+        font-size: 60px;
+    }
 }
 
+/* smartphone width */
 @media screen and (max-width:480px) {
     #planning .left-col h2{
         font-size: 30px;
     }
 
-    #testimonials h2{
-        font-size: 35px;
-    }
-
-    #benefits h2{
+    #testimonials h2, #benefits h2, #about-us h2{
         font-size: 35px;
     }
 }
