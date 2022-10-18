@@ -28,6 +28,10 @@ a{
     border-radius: 1000px;
 }
 
+.violet{
+    background-color: #9792e4;
+}
+
 /* header rules */
 header{
     background-color: #0084fd;
@@ -143,7 +147,6 @@ main .flex-container{
 
 /* planning section rules */
 #planning{
-    background-color: #9792e4;
     padding-bottom: 60px;
 }
 
@@ -200,7 +203,6 @@ main .flex-container{
 
 #planning .right-col .button{
     display: inline-block;
-    background-color: #9792e4;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -211,7 +213,7 @@ main .flex-container{
 /* testimonial section rules */
 #testimonials{
     text-align: center;
-    margin: 65px 0;
+    margin: 65px 0 110px;
     font-size: 18px;
 }
 
@@ -227,14 +229,13 @@ main .flex-container{
 }
 
 #testimonials .card{
-    background-color: #9792e4;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     text-align: left;
-    padding: 30px 55px 45px 15px;
+    padding: 30px 55px 40px 15px;
     border-radius: 45px;
     margin-bottom: 30px;
 }
@@ -251,4 +252,53 @@ main .flex-container{
 
 #testimonials .card .right-col{
     width: calc(100% - 260px);
+}
+
+/* benefits rules */
+#benefits{
+    padding: 75px 0 65px;
+}
+
+#benefits .flex-container{
+    row-gap: 30px;
+}
+
+#benefits h2{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 75px;
+}
+
+#benefits .card{
+    background-color: #fff;
+    width: calc((100% - 60px) / 3);
+    border-radius: 15px;
+    padding: 40px 30px 30px;
+}
+
+#benefits .card h3{
+    font-size: 75px;
+}
+
+#benefits .card h4{
+    font-size: 25px;
+    margin: 25px 0;
+}
+
+#benefits .card h3, #benefits .card h4{
+    color: #9792e4;
+}
+
+#benefits .card p{
+    color: #657c8f;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#benefits .card .button{
+    display: inline-block;
+    color: #fff;
+    padding: 10px 45px
 }

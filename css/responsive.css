@@ -10,6 +10,10 @@
         left: 20px;
         text-align: left;
     }
+
+    #benefits .card{
+        width: calc((100% - 30px) / 2);
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -55,6 +59,10 @@
         width: 100%;
         text-align: center;
     }
+
+    #benefits .card{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -63,6 +71,10 @@
     }
 
     #testimonials h2{
+        font-size: 35px;
+    }
+
+    #benefits h2{
         font-size: 35px;
     }
 }
